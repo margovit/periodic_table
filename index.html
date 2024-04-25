@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3D Periodic Table</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/basicLightbox/5.0.0/basicLightbox.min.css"
+      integrity="sha512-C+KPK958JmUdU8B9SVr8YpEZtQ1T1XrFX/OLvE/lt336DFWXFHL5Y9/tUewMEU+Uy3dUAS363XXLdBine0WDyQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="container" class="js-container">
+      <div id="info">Periodic Table</div>
+    </div>
+
+    <div id="menu">
+      <button id="random">RANDOM</button>
+      <button id="table">TABLE</button>
+      <button id="sphere">SPHERE</button>
+      <button id="helix">HELIX</button>
+      <button id="grid">GRID</button>
+    </div>
+
+    <header class="header">
+      <ul class="js-groups">
+        <li>Metal1</li>
+        <li>Test1</li>
+        <li>Test2</li>
+        <li>Test3</li>
+      </ul>
+    </header>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/basicLightbox/5.0.0/basicLightbox.min.js"
+      integrity="sha512-jIc3kBeyfyLXBTmzUIXnbGiVK2wgWGcDIkJwkFW4bQ6v2h/piOKLwIfy3wOmKHWIu8DgYSKVth0DMUvExMYcOw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <div class="global js-hover-modal">
+      <p>S</p>
+      <p>NAME</p>
+      <p>WEIGHT</p>
+      <p>GROUP</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/tween.min.js"></script>
+    <script src="js/controls/trackball.controls.js"></script>
+    <script src="js/renderers/css.3d.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/infoElem.js" type="module"></script>
+    <script src="./js/header.js" type="module"></script>
+    <script src="./js/hover.js" type="module"></script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

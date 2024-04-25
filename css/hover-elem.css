@@ -1,0 +1,21 @@
+.element {
+  transition: border 0.2s ease-in-out;
+}
+
+body.show-metal .metal {
+  border: 5px solid red;
+  width: 150px;
+  height: 190px;
+}
+
+body.show-metal-test .metal-test {
+  border: 5px solid red;
+  width: 150px;
+  height: 190px;
+}
+
+body.show-test1 .test1 {
+  border: 5px solid red;
+  width: 150px;
+  height: 190px;
+}

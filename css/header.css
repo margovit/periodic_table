@@ -1,0 +1,18 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  color: white;
+  gap: 5px;
+  z-index: 9999;
+}
+
+.header ul > li {
+  cursor: pointer;
+}

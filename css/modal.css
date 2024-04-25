@@ -1,0 +1,14 @@
+.backdrop {
+  background-color: transparent;
+}
+.modal {
+  background-color: rgba(123, 200, 180, 0.9);
+  width: 500px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
